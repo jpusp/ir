@@ -1,4 +1,3 @@
-const salarioMinimo = 954;
 const TabelasDeImpostoDeRenda = {
     vigente: {
         nome: "Hoje",
@@ -29,12 +28,8 @@ const TabelasDeImpostoDeRenda = {
         {
             nome: "Bolsonaro",
             tabela:  [{
-                nome: "Isentos",
-                base: 0,
-                aliquota: 0
-            }, {
-                nome: "20%",
-                base: salarioMinimo * 5,
+                nome: "Valor único",
+                base: 5724.0,
                 aliquota: 0.2
             }]
         },{
